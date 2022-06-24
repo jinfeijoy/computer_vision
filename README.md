@@ -2,7 +2,7 @@
 
 
 ### Planning
-   * Concept/Simple Implementation: June20 - July13
+   * Concept/Simple Implementation: June30 - July13
    * Autoencoder: Aug9 - Aug20
    * Attention: Sep7 - Sep21 
    * Other topics: Sep22 - Nov30
