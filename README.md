@@ -1,5 +1,6 @@
 # Computer Vision
 
+-------------------- HOLD for the following planning for future ------------------------
 
 ### Planning
    * Concept/Simple Implementation: July11 - July30
