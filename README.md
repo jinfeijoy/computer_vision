@@ -1,11 +1,9 @@
 # Computer Vision
 
+-------------------- HOLD for the following planning for future ------------------------
 
 ### Planning
-   * Concept/Simple Implementation: June20 - July13
-   * Autoencoder: Aug9 - Aug20
-   * Attention: Sep7 - Sep21 
-   * Other topics: Sep22 - Nov30
+   
 
 ### Reference
 * Online Course:
@@ -14,4 +12,5 @@
    * [Image Segmentation, Filtering, and Region Analysis](https://www.coursera.org/learn/image-segmentation/home/week/1)
    * [Automating Image Processing](https://www.coursera.org/learn/automating-image-processing/home/week/1)
 * [Computer Vision and Image Understanding](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/vol/221/suppl/C)	
+* [Computer Vision Tutorial for Beginners | Learn Computer Vision](https://www.projectpro.io/data-science-in-python-tutorial/computer-vision-tutorial-for-beginners#mcetoc_1fcvfccbed)
 * Articles:
