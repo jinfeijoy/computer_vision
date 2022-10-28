@@ -1,6 +1,6 @@
 # Computer Vision
 
--------------------- HOLD for the following planning for future ------------------------
+
 In the early stage, it called digital image processing, just recently, with powerful computer and ML/DL, it become CV. Previously the most important part for digital image processing is kernal, people need to manually adjust kernal to process image. Currently the computer can train model to calculate millions of kernals and do model selection for different scenarios. For example, for different image problems, e.g. image classification, can be done with different small projects with kernal trained. With more data and more scenarios, the model will be more accurate. 
 
 
