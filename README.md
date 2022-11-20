@@ -6,7 +6,7 @@ In the early stage, it called digital image processing, just recently, with powe
 
 ### Planning
 * [Computer Vision Tutorial for Beginners | Learn Computer Vision](https://www.projectpro.io/data-science-in-python-tutorial/computer-vision-tutorial-for-beginners#mcetoc_1fcvfccbed):  Oct22 - Oct29
-* [Your First Image Classifier Using KNN to Classify Image](https://pyimagesearch.com/2021/04/17/your-first-image-classifier-using-k-nn-to-classify-images/): Oct31 - Nov4
+* [Your First Image Classifier Using KNN to Classify Image](https://pyimagesearch.com/2021/04/17/your-first-image-classifier-using-k-nn-to-classify-images/): Nov21 - Nov25
 * [Image Classification using Convolutional Neural Networks (CNN)](https://medium.com/nerd-for-tech/image-classification-using-convolutional-neural-networks-cnn-eef587ed0c1): Nov21 - Nov25
 
 ### Summary
