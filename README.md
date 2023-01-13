@@ -27,4 +27,5 @@ In the early stage, it called digital image processing, just recently, with powe
    * [Automating Image Processing](https://www.coursera.org/learn/automating-image-processing/home/week/1)
 * [Computer Vision and Image Understanding](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/vol/221/suppl/C)	
 * [Computer Vision Tutorial for Beginners | Learn Computer Vision](https://www.projectpro.io/data-science-in-python-tutorial/computer-vision-tutorial-for-beginners#mcetoc_1fcvfccbed)
+* [Enable NVIDIA GPU Support for Tensorflow-2.8 (Windows 11)](https://medium.com/enable-gpu-support-for-tensorflow-2-8-windows/enable-nvidia-gpu-support-for-tensorflow-2-8-windows-11-e2d694beddbb)
 * Articles:
