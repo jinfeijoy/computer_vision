@@ -47,3 +47,10 @@
 *  Why convolutions:
    * Parameter sharing: a feature detector (such as a vertical edge detector) that's useful in one part of the image is probably useful in another part of the image
    * Sparsity of connections: in each layer, each output value depends only on a small number of input     
+
+## Week2
+### Case Study
+* Classic Networks:
+   * LeNet-5
+   * AlexNet
+   * VGG-16
