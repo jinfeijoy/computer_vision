@@ -85,4 +85,7 @@
       * ![image](https://user-images.githubusercontent.com/16402963/213591165-a7f6ecc6-50ee-4eb2-97b9-d92e480a9667.png)
    * color shifting 
       * ![image](https://user-images.githubusercontent.com/16402963/213591733-a139a7ae-ee3e-4971-b142-35a47d179fc5.png)
+* Tips for doing well on benchmarks/winning competition (however, those are not recommended for production system)
+   * emsembling: train several networks independently and average their outputs (this usually not using iin real production, more in experiment or competition)
+   * multi-crop at test time: run classifier on multiple versions of test images and average results (this is for more actual production system)
    
