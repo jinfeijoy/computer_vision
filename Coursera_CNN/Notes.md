@@ -75,3 +75,14 @@
 * MobileNett v2
    * ![image](https://user-images.githubusercontent.com/16402963/213074538-45e5d54c-ed40-4770-a2c4-46df4dce0701.png)
    * ![image](https://user-images.githubusercontent.com/16402963/213074867-17ebdfe0-a3c3-4bfc-b2b8-55211586dee9.png)
+### Practical
+* Data Augmentation
+   * mirroring
+   * random cropping 
+      * rotation
+      * shearing
+      * local warping
+      * ![image](https://user-images.githubusercontent.com/16402963/213591165-a7f6ecc6-50ee-4eb2-97b9-d92e480a9667.png)
+   * color shifting 
+      * ![image](https://user-images.githubusercontent.com/16402963/213591733-a139a7ae-ee3e-4971-b142-35a47d179fc5.png)
+   
