@@ -89,3 +89,39 @@
    * emsembling: train several networks independently and average their outputs (this usually not using iin real production, more in experiment or competition)
    * multi-crop at test time: run classifier on multiple versions of test images and average results (this is for more actual production system)
    
+## Week3
+### Object localization
+* ![image](https://user-images.githubusercontent.com/16402963/215236469-55c5cc82-c3eb-454a-adbe-f95bad493409.png)
+* targett label: ![image](https://user-images.githubusercontent.com/16402963/215236496-b5f9cc01-bf56-400e-932c-2c34f82c39f6.png)
+### Landmark detection
+* ![image](https://user-images.githubusercontent.com/16402963/215236546-da932432-5216-4819-bdf5-d12525f74070.png)
+### object detection
+* sliding window detection
+### Convolutional implementation of sliding windows
+* turnring FC (fully connected layers into convolutional layers):
+   * ![image](https://user-images.githubusercontent.com/16402963/215236658-7703272e-a3f9-49ba-97f4-2a19de4e3e63.png) 
+* ![image](https://user-images.githubusercontent.com/16402963/215236708-9ec1f554-6206-4c58-89f5-77557493dfff.png)
+### Bounding Box Prediction (YOLO algorithm)
+* to check if middle point of object is in grid cell
+* ![image](https://user-images.githubusercontent.com/16402963/215236807-3c2c11ec-d06c-4885-90df-64250dba5ebf.png)
+* ![image](https://user-images.githubusercontent.com/16402963/215236843-4cebfd51-2e77-4d0a-9967-0fbbb671b764.png)
+### Ubtersection Over Union
+* evaluating object localization
+* ![image](https://user-images.githubusercontent.com/16402963/215236900-33eaa8ee-c6eb-45fd-a081-30b76c279703.png)
+### Non-max Suppression
+* to make sure target only in 1 grid cell
+* ![image](https://user-images.githubusercontent.com/16402963/215236958-c4e936de-4fb0-43ce-8b7c-6f1f92c19ea6.png)
+### Anchor Boxes
+* there can be multiple anchor boxes in every picture
+* each object in training image is assigned to grid cell that contains object's midpoint and anchor box for the grid cell with highest IoU
+* ![image](https://user-images.githubusercontent.com/16402963/215237000-b338dfca-cfc1-4559-be33-c5b6c02f3d19.png)
+* ![image](https://user-images.githubusercontent.com/16402963/215237059-737b67c1-b053-4df1-849c-482850959fce.png)
+### YOLO (You Only Look Once)
+* ![image](https://user-images.githubusercontent.com/16402963/215237139-bc9728d1-727c-44d4-94d0-390fe14c2503.png)
+### Sementic Segmentation with U-net
+* ![image](https://user-images.githubusercontent.com/16402963/215237172-ae31abca-1c09-482e-82b1-b7c07e2fcc66.png)
+* ![image](https://user-images.githubusercontent.com/16402963/215237336-85979272-f672-4d03-8542-749baf023b3b.png)
+* ![image](https://user-images.githubusercontent.com/16402963/215237353-ef78ba99-773f-45ad-ac66-8c40456ae962.png)
+   * final output: h * x * n_classes
+### Transpose convolutions
+* ![image](https://user-images.githubusercontent.com/16402963/215237246-f40643f2-09c7-4030-a83a-83b0bd90b7e4.png)
