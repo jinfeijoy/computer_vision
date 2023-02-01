@@ -125,3 +125,23 @@
    * final output: h * x * n_classes
 ### Transpose convolutions
 * ![image](https://user-images.githubusercontent.com/16402963/215237246-f40643f2-09c7-4030-a83a-83b0bd90b7e4.png)
+
+## Week4
+### Face Recognition
+* One Shot Learning
+   * One-shot Learning (performance is not good): 
+      * Learning from one example to recognize the person again (image -> CNN -> O(softmax multiple classification multiple probability)   
+   * Learning a similary function
+      * d(img1, img2) = degree of difference between images 
+* Siamese Network
+   * ![image](https://user-images.githubusercontent.com/16402963/215910193-16d484c4-ccb9-4094-82a2-2423c97b3545.png)
+   * ![image](https://user-images.githubusercontent.com/16402963/215910366-1c13b355-44c0-4646-976a-a0114e1f1acc.png) 
+* Triplet Loss
+   * difference between object and positive - difference between object and negative + margin <= 0 
+   * ![image](https://user-images.githubusercontent.com/16402963/215910950-e48c6747-e819-45e3-9e45-ed9922996fd1.png)
+   * should choose triplets that are hard to train on, otherwise, if we randomly choose A, P, N, then d(A,P)+alpha<=d(A,N) is easilly satisfied, then gradient descent won't update with valueable information
+* Face Verification and Binary Classification
+   * ![image](https://user-images.githubusercontent.com/16402963/215913597-f6aaba66-ea92-49fb-81d2-1f4b9b78447e.png)
+   * encoding of picture can precompute
+ 
+### Neural Style Transfer
