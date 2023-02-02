@@ -145,3 +145,28 @@
    * encoding of picture can precompute
  
 ### Neural Style Transfer
+* What are deep ConvNets learning?
+   *  different layers can capture different information from image
+   *  ![image](https://user-images.githubusercontent.com/16402963/216193308-e5dd6b37-5e34-4258-b414-29a876eb5a37.png)
+   * ![image](https://user-images.githubusercontent.com/16402963/216193349-004efeff-cbef-4b5a-acdf-3cd9f92b3c02.png)
+* cost function
+   * Neural style transfer cost function: 
+      * C: content, S: stype, G: generated image
+      * J(G) = alpha * J_content(C, G) + beta * J_style(S,G) -> how difference between content and generated + how difference between style and generated, alpha and beta are weight
+   * Find the generated image G
+      * initiate G randomly: G: 100 * 100 * 3
+      * Use gradient descent to minimize J(G)
+         * G = G - derivative of cost function
+         * ![image](https://user-images.githubusercontent.com/16402963/216194270-7dba6080-db27-47a0-8b03-382d7a9f88c1.png)
+         * this updating the pixel values of image G
+* content cost function
+   *  ![image](https://user-images.githubusercontent.com/16402963/216195426-de559f1f-2b01-4d30-9e92-48a227eff143.png)
+* style cost function
+   *  ![image](https://user-images.githubusercontent.com/16402963/216196547-016fb13e-189f-409e-aae4-e600823d50f1.png)
+   *  ![image](https://user-images.githubusercontent.com/16402963/216196863-a3a7019b-eb1c-4bd1-94e2-8026df38e4ed.png)
+
+* 1D and 3D generalizations
+   * ![image](https://user-images.githubusercontent.com/16402963/216199658-9a337c37-d0fc-4da2-9d01-e05b7e43683d.png)
+      * for most 1D data problem, mostly we use RNN, but CNN can also be applied
+   
+ 
